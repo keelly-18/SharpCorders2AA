@@ -11,7 +11,27 @@
         var cores = ["Preto", "Branco", "Vermelho", "Roxo"];
 
         // Exibir o vetor
-        console.log(cores)
+        // console.log(cores)
+
+        // Exibir informação de uma determinada posição
+        // document.write(cores[1])
+        
+        // Exibir a quantidade de cores
+        // document.write(cores.length)
+
+        // Adicionar 
+        cores.push("Verde")
+
+        // Alterar
+        cores[1] = "Cinza"
+
+        // Excluir
+        cores.splice(2, 1)
+
+        // Listando cores
+        for(var i = 0; i < cores.length; i++){
+            document.write(`${i+1}ª ${cores[i]}<br>`)
+        }
 
 
     </script>
